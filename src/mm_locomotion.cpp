@@ -54,37 +54,36 @@ bool locomote(geometry_msgs::Pose2D& goal_base_pose2D)
 
   MoveBaseClient mbc("move_base", true);
 
-    while (ros::ok() && !mbc.waitForServer(ros::Duration(5.0)))
-    {
-      ROS_INFO("Waiting for the move_base action serve to come up");
-    }
+  while (ros::ok() && !mbc.waitForServer(ros::Duration(5.0)))
+  {
+    ROS_INFO("Waiting for the move_base action serve to come up");
+  }
 
-    move_base_msgs::MoveBaseGoal commutation_goal;
-    commutation_goal.target_pose.header.frame_id = "odom";
-    commutation_goal.target_pose.header.stamp = ros::Time::now();
-    commutation_goal.target_pose.pose.position.x = goal_base_pose2D.x;
-    commutation_goal.target_pose.pose.position.y = goal_base_pose2D.y;
-    commutation_goal.target_pose.pose.position.z = 0;
-    tf::Quaternion qt = tf::createQuaternionFromYaw(goal_base_pose2D.theta);
-    commutation_goal.target_pose.pose.orientation.x = qt.getX();
-    commutation_goal.target_pose.pose.orientation.y = qt.getY();
-    commutation_goal.target_pose.pose.orientation.z = qt.getZ();
-    commutation_goal.target_pose.pose.orientation.w = qt.getW();
+  move_base_msgs::MoveBaseGoal commutation_goal;
+  commutation_goal.target_pose.header.frame_id = "odom";
+  commutation_goal.target_pose.header.stamp = ros::Time::now();
+  commutation_goal.target_pose.pose.position.x = goal_base_pose2D.x;
+  commutation_goal.target_pose.pose.position.y = goal_base_pose2D.y;
+  commutation_goal.target_pose.pose.position.z = 0;
+  tf::Quaternion qt = tf::createQuaternionFromYaw(goal_base_pose2D.theta);
+  commutation_goal.target_pose.pose.orientation.x = qt.getX();
+  commutation_goal.target_pose.pose.orientation.y = qt.getY();
+  commutation_goal.target_pose.pose.orientation.z = qt.getZ();
+  commutation_goal.target_pose.pose.orientation.w = qt.getW();
 
-    mbc.sendGoal(commutation_goal);
-   mbc.waitForResult();
+  mbc.sendGoal(commutation_goal);
+  mbc.waitForResult();
 
-    if (mbc.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
-     {
-       ROS_INFO("Robot near dock");
-       return true;
-     }
-     else
-     {
-       ROS_WARN("The robot is unable to reach near dock");
-       return false;
-     }
-
+  if (mbc.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
+  {
+    ROS_INFO("Robot near dock");
+    return true;
+  }
+  else
+  {
+    ROS_WARN("The robot is unable to reach near dock");
+    return false;
+  }
 }
 
 }  // namespace

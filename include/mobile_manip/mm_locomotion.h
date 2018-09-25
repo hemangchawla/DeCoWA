@@ -11,7 +11,6 @@
 #include <actionlib/client/simple_action_client.h>
 #include <nav_msgs/GetPlan.h>
 
-
 namespace mm_locomtion
 {
 /**
@@ -31,6 +30,5 @@ bool computePath(geometry_msgs::Pose2D& start_base_pose2D, geometry_msgs::Pose2D
 bool locomote(geometry_msgs::Pose2D& goal_base_pose2D);
 
 typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;
-
 }
-#endif // MM_LOCOMOTION_H
+#endif  // MM_LOCOMOTION_H

@@ -390,7 +390,7 @@ void MobileManipulation::stateMachineMobileManipulation()
       std::vector<std::string> joint_names = arm_joint_model_group_->getJointModelNames();
 
       unfolding_arm_successful_ = mm_manipulation::unfoldArm(folded_positions, unfolded_positions, joint_names,
-                                                                 simulation_mode_, vrep_joint_handles_);
+                                                             simulation_mode_, vrep_joint_handles_);
 
       if (unfolding_arm_successful_)
       {
@@ -564,4 +564,3 @@ void writeToCSV(std::string name, Eigen::MatrixXd matrix)
   std::ofstream file(name.c_str());
   file << matrix.format(CSV);
 }
-

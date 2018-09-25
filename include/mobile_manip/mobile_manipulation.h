@@ -46,7 +46,6 @@ public:
    */
   void spin();
 
-
   // Variables
 
   /**
@@ -205,6 +204,5 @@ private:
 
   std::vector<int> vrep_joint_handles_;
 };
-
 
 #endif  // MOBILE_MANIPULATION_H
