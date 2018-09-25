@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+RCS_DOCK_ARM_H	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^#define RCS_DOCK_ARM_H$/;"	macro	line:2
+SPIN_RATE	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^#define SPIN_RATE /;"	macro	line:61
+stateMM	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^enum stateMM {$/;"	enum	line:64
+INITIALIZE	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  INITIALIZE,$/;"	enumerator	line:65	enum:stateMM
+MOTION_PLANNING	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  MOTION_PLANNING,$/;"	enumerator	line:66	enum:stateMM
+EXECUTING_ARM	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  EXECUTING_ARM,$/;"	enumerator	line:67	enum:stateMM
+EXECUTING_BASE	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  EXECUTING_BASE,$/;"	enumerator	line:68	enum:stateMM
+EXECUTING_MM	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  EXECUTING_MM,$/;"	enumerator	line:69	enum:stateMM
+ARM_AT_HOME	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  ARM_AT_HOME,$/;"	enumerator	line:70	enum:stateMM
+BASE_AT_HOME	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  BASE_AT_HOME,$/;"	enumerator	line:71	enum:stateMM
+AT_HOME	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  AT_HOME,$/;"	enumerator	line:72	enum:stateMM
+ARM_AT_GOAL	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  ARM_AT_GOAL,$/;"	enumerator	line:73	enum:stateMM
+BASE_AT_GOAL	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  BASE_AT_GOAL,$/;"	enumerator	line:74	enum:stateMM
+AT_GOAL	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  AT_GOAL,$/;"	enumerator	line:75	enum:stateMM
+STOPPED	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  STOPPED,$/;"	enumerator	line:76	enum:stateMM
+stateMM_	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^} stateMM_;$/;"	variable	line:77	typeref:enum:stateMM
+velocities2D	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^class velocities2D$/;"	class	line:83
+linear_	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^    float linear_;$/;"	member	line:86	class:velocities2D
+angular_	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^    float angular_;$/;"	member	line:87	class:velocities2D
+PIDgains	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^class PIDgains$/;"	class	line:90
+Kp_	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^    float Kp_;$/;"	member	line:93	class:PIDgains
+Ki_	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^    float Ki_;$/;"	member	line:94	class:PIDgains
+Kd_	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^    float Kd_;$/;"	member	line:95	class:PIDgains
+MobileManip	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^class MobileManip$/;"	class	line:99
+nh	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  ros::NodeHandle nh;$/;"	member	line:109	class:MobileManip
+Subscriber_handles	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  ros::Subscriber Subscriber_handles;  \/\/ Creating subcriber for joint handles of VREP$/;"	member	line:110	class:MobileManip
+Subscriber_odom	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  ros::Subscriber Subscriber_odom; \/\/ Reading the base pose from VREP$/;"	member	line:111	class:MobileManip
+Subscriber_traj	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  ros::Subscriber Subscriber_traj;  \/\/ Creating subscriber for reading the generated trajectory (needed?)$/;"	member	line:112	class:MobileManip
+Subscriber_base_goal	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  ros::Subscriber Subscriber_base_goal;$/;"	member	line:113	class:MobileManip
+Subscriber_ee_goal	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  ros::Subscriber Subscriber_ee_goal;$/;"	member	line:114	class:MobileManip
+basePathPub	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  ros::Publisher basePathPub;$/;"	member	line:116	class:MobileManip
+armPathPub	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  ros::Publisher armPathPub;$/;"	member	line:117	class:MobileManip
+stateUpdate	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  ros::Publisher stateUpdate;$/;"	member	line:118	class:MobileManip
+home_pose1	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  geometry_msgs::PoseStamped home_pose1;$/;"	member	line:120	class:MobileManip
+target_pose1	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  geometry_msgs::Pose target_pose1;$/;"	member	line:121	class:MobileManip
+coeff_base_parabola	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  float coeff_base_parabola;$/;"	member	line:122	class:MobileManip
+home_pose2	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  geometry_msgs::PoseStamped home_pose2;$/;"	member	line:123	class:MobileManip
+min_velocity_base	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  velocities2D min_velocity_base;$/;"	member	line:124	class:MobileManip
+MotionMatrix	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  float MotionMatrix[1000][6];$/;"	member	line:126	class:MobileManip
+base_goal_available	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  bool base_goal_available;$/;"	member	line:127	class:MobileManip
+ee_goal_available	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  bool ee_goal_available;$/;"	member	line:128	class:MobileManip
+joint_positions	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  vrep_common::JointSetStateData joint_positions;$/;"	member	line:129	class:MobileManip
+current_base_pose2D	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  geometry_msgs::Pose2D current_base_pose2D;$/;"	member	line:130	class:MobileManip
+joint_handles	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  int joint_handles[6];$/;"	member	line:131	class:MobileManip
+joint_handles_available	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  bool joint_handles_available;$/;"	member	line:132	class:MobileManip
+PLANNING_GROUP	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  std::string PLANNING_GROUP;$/;"	member	line:133	class:MobileManip
+WHOLE_ROBOT_GROUP	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  std::string WHOLE_ROBOT_GROUP;$/;"	member	line:134	class:MobileManip
+arm_joint_model_group	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  const robot_state::JointModelGroup* arm_joint_model_group;$/;"	member	line:135	class:MobileManip
+whole_joint_model_group	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  const robot_state::JointModelGroup* whole_joint_model_group;$/;"	member	line:136	class:MobileManip
+kinematic_model	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  robot_model::RobotModelConstPtr kinematic_model;$/;"	member	line:137	class:MobileManip
+current_state	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  moveit::core::RobotStatePtr current_state;$/;"	member	line:138	class:MobileManip
+vrep_executing	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  bool vrep_executing;$/;"	member	line:139	class:MobileManip
+goal_base_pose2D	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  geometry_msgs::Pose2D goal_base_pose2D;$/;"	member	line:140	class:MobileManip
+planner_plugin_loader	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  boost::scoped_ptr<pluginlib::ClassLoader<planning_interface::PlannerManager>> planner_plugin_loader;$/;"	member	line:141	class:MobileManip
+planner_instance	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  planning_interface::PlannerManagerPtr planner_instance;$/;"	member	line:142	class:MobileManip
+planner_plugin_name	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  std::string planner_plugin_name;$/;"	member	line:143	class:MobileManip
+transform_listener_pointer	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  tf::TransformListener* transform_listener_pointer;$/;"	member	line:144	class:MobileManip
+sgn	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_dock_arm.h	/^  template <typename T> int sgn(T val) {$/;"	function	line:147	class:MobileManip	signature:(T val)
+RCS_MM_MAIN_H	/home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/rcs_mm_v1/include/rcs_mm_v1/rcs_mm_main.h	/^#define RCS_MM_MAIN_H$/;"	macro	line:2

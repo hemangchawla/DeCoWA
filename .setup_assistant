@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ""
+    relative_path: /home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/URDF_LEA_files/lea_base_primitive_with_old_arm.urdf
+  SRDF:
+    relative_path: config/Base_arm.srdf
+  CONFIG:
+    author_name: Hemang Chawla
+    author_email: hemangchawla@gmaill.com
+    generated_timestamp: 1505591236

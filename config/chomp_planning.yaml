@@ -1,0 +1,2 @@
+planner_configs:
+  longest_valid_segment_fraction: 0.005

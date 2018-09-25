@@ -1,0 +1,15 @@
+execution_mode: simulation
+inverse_map_type: reachability
+#reachability #planability #fusion
+arm_link0_name: link0
+platform_group: base_planar
+arm_group: arm_kin_chain
+whole_body_group: base_arm
+inverse_plan_map_path: /home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/reuleaux/map_creator/maps/arm_kin_chain_r0.1_planning_STOMP_reachability_Inv.h5
+inverse_plan_map_data_path: /home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/reuleaux/map_creator/maps/arm_kin_chain_r0.1_planning_STOMP_reachability_Inv_data.h5
+inverse_reach_map_path: /home/hemang/catkin_ws/src/Projects/Projects/rcs_mobile_manipulation/reuleaux/map_creator/maps/arm_kin_chain_r0.1_Inv_collision_reachability.h5
+slice_threshold: 0.6
+base_optimization_criterion: distance # clutter
+zero_state: arm_zero
+unfolded_state: unfolded_config
+arm_motion_planner: stomp #RRTConnectkConfigDefault
